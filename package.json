@@ -1,0 +1,14 @@
+{ "name"   : "voodootikigod-upgrade"
+, "version": "0.1.0"
+, "description": "Upgrade the minutewith sites"
+, "author": { "name": "Jason Smith" , "email": "jhs@iriscouch.com" }
+
+, "private": true
+, "publishConfig": {"publish-privates":true}
+
+, "engines": [ "node" ]
+
+, "dependencies": { "txn": "~0.2.9"
+                  , "request": "~2.2.9"
+                  }
+}
