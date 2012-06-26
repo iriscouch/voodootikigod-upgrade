@@ -11,4 +11,6 @@
 , "dependencies": { "txn": "~0.2.9"
                   , "request": "~2.2.9"
                   }
+
+, "bin": {"voodootikigod-upgrade": "./upgrade.js"}
 }
