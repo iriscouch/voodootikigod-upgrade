@@ -8,7 +8,7 @@ var request = require('request')
 var probe_couchdb = require('probe_couchdb').defaults({'do_users':false})
 
 var FIX_DOMAINS = [ 'couchdb.minutewith.com', 'mobile.minutewith.com', 'node.minutewith.com', 'riak.minutewith.com'
-                  , 'www.aminutewithbrendan.com', 'staging.aminutewithbrendan.com' ]
+                  , 'www.aminutewithbrendan.com' ]
 var url = process.env.iriscouch_url || process.argv[2]
 
 if(!url)
