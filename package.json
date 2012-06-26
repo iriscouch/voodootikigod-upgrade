@@ -10,6 +10,7 @@
 
 , "dependencies": { "txn": "~0.2.9"
                   , "request": "~2.2.9"
+                  , "probe_couchdb": "~0.7.3"
                   }
 
 , "bin": {"voodootikigod-upgrade": "./upgrade.js"}
